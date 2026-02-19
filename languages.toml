@@ -1,0 +1,25 @@
+[[language]]
+name = "bash"
+auto-format = true
+
+[[language]]
+name = "toml"
+auto-format = true
+
+[[language]]
+name = "python"
+auto-format = true
+
+[[lanuage]]
+name = "C"
+scope = "source.c"
+auto-format = true
+file-types = ["c", "h"]
+language-servers = ["clangd"]
+
+[[language]]
+name = "C++"
+scope = "source.cpp"
+auto-format = true
+file-types = ["cpp", "h"]
+language-servers = ["clangd"]
