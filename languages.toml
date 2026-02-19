@@ -23,3 +23,13 @@ scope = "source.cpp"
 auto-format = true
 file-types = ["cpp", "h"]
 language-servers = ["clangd"]
+
+[[language]]
+name = "html"
+auto-format = true
+indent = {tab-width = 2, unit = "  "}
+auto-pairs = { "<" = ">" }
+
+[[language]]
+name = "css"
+auto-format = true

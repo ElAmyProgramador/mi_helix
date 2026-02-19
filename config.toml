@@ -12,6 +12,7 @@ cursorline = true
 auto-save = true
 auto-format = true
 idle-timeout = 200
+auto-pairs = true
 
 [editor.cursor-shape]
 insert = "bar"
