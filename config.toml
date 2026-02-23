@@ -21,8 +21,14 @@ select = "underline"
 
 [editor.statusline]
 left = ["mode", "spinner", "file-name", "file-modification-indicator"]
-center = []
-right = ["diagnostics", "selections", "position", "file-encoding"]
+center = ["file-type", "read-only-indicator"]
+right = ["diagnostics", "selections", "position", "file-encoding", "file-line-ending"]
+separator = "|"
+mode.normal = "Normal"
+mode.insert = "Insertion"
+mode.select = "Selection"
+diagnostics = ["warning", "error"]
+workspace-diagnostics = ["warning", "error"]
 
 [editor.lsp]
 display-messages = true
